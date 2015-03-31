@@ -4,7 +4,7 @@ SITE
     apt (2.7.0)
     bluepill (2.3.1)
       rsyslog (>= 0.0.0)
-    build-essential (2.2.1)
+    build-essential (2.2.2)
     chef_handler (1.1.6)
     dmg (2.2.2)
     git (4.1.0)
@@ -52,9 +52,9 @@ GIT
 GIT
   remote: git://github.com/socalvin/chef-instant-coder
   ref: master
-  sha: 05946818781a457ab0107d363b97cf9ad6d92896
+  sha: 0771aa7a22d4137fe60d05b86e4f59f3af48a9ee
   specs:
-    chef-instant-coder (1.0.0)
+    chef-instant-coder (1.1.0)
       build-essential (>= 0.0.0)
       git (>= 0.0.0)
       imagemagick (>= 0.0.0)
