@@ -65,27 +65,27 @@ vagrant destroy
 ```
 
 * After the "vagrant up" finishes successfully (hopefully it does!), you have these software installed and you are almost ready to code!
-1. sudo-able user 'dev' with password 'password'. Its SSH keys are copied from your Mac as well.
-2. build-essential for compiling native libraries
-3. ntp
-4. git
-5. vim
-6. Imagemagick (required by Paperclip gem)
-7. redis (required by Resque gem)
-8. Java
-9. MySQL with root's password 'mysqlforyou'
-10. Git-friendly prompt (it shows you which branch or tag you are at when you are inside a git-managed folder)
-11. rbenv (a more light-weighted replacement for RVM. Check [this](https://github.com/sstephenson/rbenv) out!) with Ruby 2.2.1. Bundler and Rails gem are also installed.
-12. Sublime Text 3 (launch it by 'sublime' command)
+  1. sudo-able user 'dev' with password 'password'. Its SSH keys are copied from your Mac as well.
+  2. build-essential for compiling native libraries
+  3. ntp
+  4. git
+  5. vim
+  6. Imagemagick (required by Paperclip gem)
+  7. redis (required by Resque gem)
+  8. Java
+  9. MySQL with root's password 'mysqlforyou'
+  10. Git-friendly prompt (it shows you which branch or tag you are at when you are inside a git-managed folder)
+  11. rbenv (a more light-weighted replacement for RVM. Check [this](https://github.com/sstephenson/rbenv) out!) with Ruby 2.2.1. Bundler and Rails gem are also installed.
+  12. Sublime Text 3 (launch it by 'sublime' command)
 
 ## Launching your first Rails project
-1. Login to the VM using 'dev' user and password 'password'.
-2. mkdir -p projects
-3. cd projects
-4. rails new hellworld --database mysql
-5. Open sublime and edit ~/projects/helloworld/config/database.yml to change the database password to 'mysqlforyou'
-6. cd helloworld
-7. rake db:create
-8. rails s
-9. Open http://localhost:3000. Here you go!
-10. If you want to access the Rails server from your Mac, just use http://192.168.50.10:3000
+  1. Login to the VM using 'dev' user and password 'password'.
+  2. mkdir -p projects
+  3. cd projects
+  4. rails new hellworld --database mysql
+  5. Open sublime and edit ~/projects/helloworld/config/database.yml to change the database password to 'mysqlforyou'
+  6. cd helloworld
+  7. rake db:create
+  8. rails s
+  9. Open http://localhost:3000. Here you go!
+  10. If you want to access the Rails server from your Mac, just use http://192.168.50.10:3000
