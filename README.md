@@ -13,11 +13,10 @@ To use **instant coder** for VMware, it is pretty simple:
 
 1. Buy and install VMware Fusion.
 2. Buy and install Vagrant for VMware
-3. Use Vagrantfile.vmware instead of Vagrantfile, i.e.
+3. Use Vagrantfile.vmware instead of Vagrantfile and the rest of the steps in this README are the same, i.e.
 ```
 cp Vagrantfile.vmware Vagrantfile
 ```
-4. The rest of the steps are the same. Enjoy!
 
 ## First, let's set up the essential software in your MacOS
 * Install Homebrew. Check it by "brew -v".
