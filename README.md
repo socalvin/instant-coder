@@ -6,8 +6,8 @@
 * You have 20 to 30 minutes for Chef to finish the entire process, which involves downloading and compiling various components of the software stack.
 * You haven't set a passphrase for your SSH key in your MacOS because the entire process is CLI-based and it does not bring up a GUI to ask you for the password. You can check it by following this <a href=http://unix.stackexchange.com/questions/120424/is-there-a-way-to-check-a-users-ssh-key-to-see-if-the-passphrase-is-blank target=_blank>instruction</a>. You can remove the passphrase by "ssh-keygen -p" or read this <a href=http://stackoverflow.com/questions/112396/how-do-i-remove-the-passphrase-for-the-ssh-key-without-having-to-create-a-new-ke target=_blank>instruction</a> for details.
 
-## Retina user, VirtualBox may be not for you
-Why? Because VirtualBox is not working quite well with retina display at this point and you will face sluggish display performance issue in the guest operating system. You can work around it by disabling hiDPI on your Mac but having hiDPI is the whole point of getting a retina display. There are other benefits like better default keyboard mapping (yes, command-c and command-v to do copy & paste in Ubuntu!), distraction free full screen mode, lower overhead and faster performance...etc. So I recommend buying VMware Fusion and Vagrant for VMware in this case.
+## IMPORTANT: Retina user only
+Some of you may experience sluggish display performance issue in the guest operating system when using VirtualBox under retina display. The symptom is some display lag when you do typing or scrolling in the system. You can work around it by disabling hiDPI on your Mac but having hiDPI is the whole point of getting a retina display. VMware has a better support of retina display and there are other benefits like better default keyboard mapping (yes, command-c and command-v to do copy & paste in Ubuntu!), distraction free full screen mode, lower overhead and faster performance...etc. So I recommend buying VMware Fusion and Vagrant for VMware in this case.
 
 To use **instant coder** for VMware, it is pretty simple:
 
